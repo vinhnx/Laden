@@ -1,9 +1,6 @@
-<H1 align="center">Laden</H1>
-
+<h1 align="center">Laden</h1>
 <p align="center">SwiftUI loading indicator view</p>
-<p align="center">
-    <img src="./Resources/loading.gif"/>
-</p>
+<p align="center"><img src="./Resources/loading.gif"/></p>
 
 ---
 
@@ -19,6 +16,7 @@ Since this component is built using Swift Package Manager, it is pretty straight
 ### Usage
 
 At simplest form:
+
 ```swift
 import SwiftUI
 import Laden
@@ -33,6 +31,7 @@ struct ContentView: View {
 ---
 
 To show loading view on top on current view by embedding inside a `ZStack`:
+
 ```swift
 ZStack {
     Text("Some text") // your content view
@@ -45,6 +44,7 @@ ZStack {
 ---
 
 To indicate loading state, have a private loading bool `@State` and bind it to Laden's `isAnimating` initialzier:
+
 ```swift
 import SwiftUI
 import Laden
@@ -66,6 +66,7 @@ struct ContentView: View {
 ---
 
 To show or hide loading view, have a private show/hide bool `@State` and modify said loading with `.hidden` attribute, when toggled:
+
 ```swift
 import SwiftUI
 import Laden
@@ -74,7 +75,7 @@ struct ContentView: View {
     @State private var shouldLoadingView = true
 
     private var loadingView = SwiftUILoading.CircleOutlineLoadingView()
-    
+
     var body: some View {
         VStack {
             if shouldLoadingView {
@@ -85,7 +86,7 @@ struct ContentView: View {
             }
 
             Button(shouldCircleView ? "Show" : "Hide") {
-                self.shouldLoadingView.toggle()                
+                self.shouldLoadingView.toggle()
             }
         }
     }
