@@ -105,6 +105,6 @@ Laden.CircleOutlineLoadingView(color: .red)
 
 ### Help, feedback or suggestions?
 
-Feel free to open issue or contact me on [Twitter](https://twitter.com/@vinhnx) for discussions, news & announcements & other projects. 🚀
+Feel free to [open an issue](https://github.com/Laden/issues) or contact me on [Twitter](https://twitter.com/@vinhnx) for discussions, news & announcements & other projects. 🚀
 
 I hope you like it! :)
