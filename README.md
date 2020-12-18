@@ -10,7 +10,7 @@ This component is built using Swift Package Manager, it is pretty straight forwa
 
 1. In Xcode (11+), open your project and navigate to `File > Swift Packages > Add Package Dependency...`
 2. Paste the repository URL (`https://github.com/vinhnx/Laden`) and click `Next` to have Xcode resolve package.
-3. For Rules, select `Versions`, and choose `Up to Next Major` as `0.1.0`, or checkout the `Releases` tab for upcoming releases.
+3. For Rules, select `Versions`, and choose `Up to Next Major` as `0.1.0`, or checkout the [Releases](https://github.com/vinhnx/Laden/tags) tab for upcoming releases.
 ![package_options.png](./Resources/package_options.png "package_options.png")
 4. Click `Finish` to integrate package into your Xcode target.
 5. Profit! ☺️
