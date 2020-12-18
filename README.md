@@ -6,7 +6,7 @@
 
 ### Installation
 
-This component is built using Swift Package Manager, it is pretty straight forward to use:
+This component is built using Swift Package Manager, it is pretty straight forward to use, no command-line needed:
 
 1. In Xcode (11+), open your project and navigate to `File > Swift Packages > Add Package Dependency...`
 2. Paste the repository URL (`https://github.com/vinhnx/Laden`) and click `Next` to have Xcode resolve package.
