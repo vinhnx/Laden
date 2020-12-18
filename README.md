@@ -43,7 +43,7 @@ ZStack {
 
 ---
 
-To indicate loading state, have a private loading bool `@State` and bind it to Laden's `isAnimating` initialzier:
+To indicate loading state, have a private loading bool `@State` and bind it to Laden's `isAnimating` initialzier, default value is `true` (or animated by default):
 
 ```swift
 import SwiftUI
