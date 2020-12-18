@@ -6,11 +6,11 @@
 
 ### Installation
 
-Since this component is built using Swift Package Manager, it is pretty straight forward to use:
+This component is built using Swift Package Manager, it is pretty straight forward to use:
 
-1. In Xcode (11+), open your project and navigate to File > Swift Packages > Add Package Dependency...
-2. Paste the repository URL (https://github.com/vinhnx/Laden) and click Next.
-3. For Rules, select Branch (with branch set to master).
+1. In Xcode (11+), open your project and navigate to `File > Swift Packages > Add Package Dependency...`
+2. Paste the repository URL (`https://github.com/vinhnx/Laden`) and click Next.
+3. For Rules, select Branch (with branch set to `main`).
 4. Click Finish to resolve package into your Xcode project.
 
 ### Usage
