@@ -95,11 +95,41 @@ struct ContentView: View {
 
 ---
 
+### Customization
+
 To customize loading view color, use `color` initializer:
 
 ```swift
 Laden.CircleOutlineLoadingView(color: .red)
 ```
+
+Available customizations:
+
+```swift
+/// Loading view protocol that define default configurations.
+public protocol LoadingAnimatable: View {
+    /// Whether this loading view is animating.
+    var isAnimating: Bool { get }
+
+    /// Default color for loading view.
+    var color: Color { get }
+
+    /// The default size for loading view.
+    var size: CGSize { get set }
+
+    /// Default stroke line width for loading bar.
+    var strokeLineWidth: CGFloat { get }
+}
+```
+
+---
+
+### Acknowledgement 
+
+idea 💡
+
++ [AppCoda's SwiftUI animation](https://www.appcoda.com/swiftui-animation-basics-building-a-loading-indicator/): for basic building block.
++ [ActivityIndicators](https://github.com/sketch204/ActivityIndicators): for idea how to build and publish a custom SwiftUI control package.
 
 ---
 
