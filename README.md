@@ -11,7 +11,7 @@ This component is built using Swift Package Manager, it is pretty straight forwa
 1. In Xcode (11+), open your project and navigate to `File > Swift Packages > Add Package Dependency...`
 2. Paste the repository URL (`https://github.com/vinhnx/Laden`) and click Next.
 3. For Rules, select Branch (with branch set to `main`).
-4. Click Finish to resolve package into your Xcode project.
+4. Click `Finish` to resolve package into your Xcode target.
 
 ### Usage
 
@@ -30,7 +30,7 @@ struct ContentView: View {
 
 ---
 
-To show loading view on top on current view by embedding inside a `ZStack`:
+To show loading view on top on current view, you can embed Laden inside a `ZStack`, and put it below your current view:
 
 ```swift
 ZStack {
@@ -40,6 +40,9 @@ ZStack {
 ```
 
 ![ZStack](./Resources/loading_zstack.gif "ZStack")
+
+> ### [ZStack](https://developer.apple.com/documentation/swiftui/zstack)
+> A view that overlays its children, aligning them in both axes.
 
 ---
 
