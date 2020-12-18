@@ -138,6 +138,12 @@ idea 💡
 
 ---
 
+### What is Laden, actually? 
+
+[It's mean "charge", in Norwegian](https://twitter.com/onmyway133/status/1339596827453050884?s=12) ⚡️
+
+---
+
 ### Help, feedback or suggestions?
 
 Feel free to [open an issue](https://github.com/Laden/issues) or contact me on [Twitter](https://twitter.com/@vinhnx) for discussions, news & announcements & other projects. 🚀
