@@ -41,6 +41,13 @@ ZStack {
 }
 ```
 
+or simply just use `.overlay` attribute:
+
+```swift
+Text("Some text") // your content view
+  .overlay(Laden.BarLoadingView())
+```
+
 ![ZStack](./Resources/loading_zstack.gif "ZStack")
 
 > ### [ZStack](https://developer.apple.com/documentation/swiftui/zstack)
