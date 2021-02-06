@@ -90,7 +90,7 @@ import Laden
 struct ContentView: View {
     @State private var shouldLoadingView = true
 
-    private var loadingView = SwiftUILoading.CircleOutlineLoadingView()
+    private var loadingView = Laden.CircleOutlineLoadingView()
 
     var body: some View {
         VStack {
