@@ -90,15 +90,18 @@ import Laden
 struct ContentView: View {
     @State private var shouldLoadingView = true
 
-    private var loadingView = Laden.CircleOutlineLoadingView()
-
+    var laden: some View {
+        Laden.CircleLoadingView(
+            color: .white, size: CGSize(width: 30, height: 30), strokeLineWidth: 3
+        )
+    }
+    
     var body: some View {
         VStack {
             if shouldLoadingView {
-                loadingView
-                    .hidden()
+                laden.hidden()
             } else {
-                loadingView
+                laden
             }
 
             Button(shouldCircleView ? "Show" : "Hide") {
