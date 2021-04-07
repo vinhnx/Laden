@@ -143,6 +143,14 @@ public protocol LoadingAnimatable: View {
 
 ---
 
+### Apps currently using Laden
+
++ [Clendar](https://github.com/vinhnx/Clendar) - Clendar - universal calendar app. Written in SwiftUI. Available on App Store. MIT License.
+
+([add yours here](https://github.com/vinhnx/Laden/pulls))
+
+---
+
 ### Acknowledgement 
 
 idea 💡
